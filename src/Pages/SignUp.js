@@ -51,7 +51,7 @@ const SignUp = () => {
   const saveUsersInDatabase = (name, email) => {
     const user = { name: name, email: email };
     // console.log(user);
-    fetch("http://localhost:5000/adduser", {
+    fetch("https://blog-app-server-hussainali2023.vercel.app/adduser", {
       method: "POST",
       headers: {
         "content-type": "application/json",
