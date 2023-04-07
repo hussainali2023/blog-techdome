@@ -3,6 +3,7 @@ import Main from "../Main/Main";
 import Blog from "../Pages/Blog";
 import SignUp from "../Pages/SignUp";
 import Login from "../Pages/Login";
+import AddBlog from "../Pages/AddBlog";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       {
         path: "/blog",
         element: <Blog />,
+      },
+      {
+        path: "/add-blog",
+        element: <AddBlog />,
       },
       {
         path: "/sign-up",
